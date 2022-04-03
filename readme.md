@@ -1,1 +1,3 @@
-# Nylas Assignment
+# Nylas Components
+
+## Implemented the Scheduler
