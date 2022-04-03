@@ -19,5 +19,5 @@
 ## Process 
 
 <p align="center">
-    <img width="450" height="268" alt="image" src="https://user-images.githubusercontent.com/8760590/161435220-3c6ff08e-8b4d-471f-9326-6bc804969d91.png">
+    <img width="450" height="268" alt="image" src="https://user-images.githubusercontent.com/8760590/161436045-b3129a5b-ea2d-476b-b812-28aff1423bf3.png">
 </p>
