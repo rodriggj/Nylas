@@ -16,8 +16,6 @@
 2. School (Gmail & Calendar) 
 3. Work (MS Outlook)
 
-> How can Nylas provide a solution? 
-
 ## Process 
 
 <p align="center">
