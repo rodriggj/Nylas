@@ -1,89 +1,27 @@
 # Nylas Assignment
 
-## Process
-1. First We Need to Authenticate our Account to a Nylas App
-    - [ ] From Nylas splash page nav to the _Nylas Account_
-    - [ ] Click _Auth Account_
+## Problem we are solving for ... 
 
-1a. This takes to Nylas `Hosted Auth Service` which prompts you to login with your email account. 
+> There are multiple sources, vendors, protocols, etc. for email and calendar syncing processes. To maintain integration of email and calendar syncs "natively" would be very `time consuming` and `expensive`. Additionally the array of changes and frequency of vendor inflicted change are unpredictable. Hence there is a need to outsource the creation & administration of an interface that allows for calendar and email sync across platforms (e.g. `Microsoft` & `Google`). 
 
-1b. An Access Token will be provided at the end of this registration process.
+## Enter Nylas ...
 
-1c. Will will also need the `Client ID` and `Client Secret` found in the Dashboard. 
+> Nylas is a product that ...
 
-2. Install the Nylas Node SDK
-
-2a. From a Terminal window execute the following command: 
-
-```s
-npm i nylas
-```
-
-2b. To see some relevant info about the SDK run: 
-```s
-npm info nylas
-```
-
-> You can also view th Nylas SDK Readme file [here](https://github.com/nylas/nylas-nodejs#readme)
-
-3. Send an email 
-
-3a. Create a file to house email configuration 
-
-```s
-touch send-email.js || code send-email.js
-```
-
-3b. Input the following to import the Nylas module
+## Use Case 
 
 ```js
-const Nylas = require('nylas')
+Suppose you have at minimum three accounts that are actively used to monitor 1. email and 2. calendar events but they are not integrated. No "pain of glass" to view all 3 accounts without manual logon, accessing, and reconciling deltas. 
 ```
 
-3c. Call the Nylas config object to pass your `client id` and `client secret` creds captured in the App Registration process. 
+1. Personal (Gmail & Calendar) 
+2. School (Gmail & Calendar) 
+3. Work (MS Outlook)
 
-```js
-const Nylas = require('nylas')
-Nylas.config({
-    clientId: process.env.CLIENT_ID, 
-    clientSecret:process.env.CLIENT_SECRET
-})
-```
+> How can Nylas provide a solution? 
 
-3d. Finally connect to Nylas by utilizing your Authorization Token. 
+## Process 
 
-```js
-const Nylas = require('nylas')
-Nylas.config({
-    clientId: process.env.CLIENT_ID, 
-    clientSecret:process.env.CLIENT_SECRET
-})
-
-const nylas = Nylas.with(process.env.ACCESS_TOKEN)
-```
-
-3e. Now you can use the `nylas` Object to send a draft message: 
-
-```js
-const Nylas = require('nylas')
-Nylas.config({
-    clientId: process.env.CLIENT_ID, 
-    clientSecret:process.env.CLIENT_SECRET
-})
-
-const nylas = Nylas.with(process.env.ACCESS_TOKEN)
-
-const draft = nylas.drafts.build({
-    subject: 'Foobar', 
-    body: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-    to: [{
-        name: "Gabe R.",
-        email: "gabriel.rodriguez.ctr@gmail.com"
-    }]
-})
-
-draft.send()
-    .then(message => {
-        console.log(`Your message: ${message}`)
-    })
-```
+<p align="center">
+    <img width="450" height="400" alt="image" src="https://user-images.githubusercontent.com/8760590/161435220-3c6ff08e-8b4d-471f-9326-6bc804969d91.png">
+</p>
