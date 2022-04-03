@@ -23,5 +23,5 @@ Suppose you have at minimum three accounts that are actively used to monitor 1. 
 ## Process 
 
 <p align="center">
-    <img width="450" height="280" alt="image" src="https://user-images.githubusercontent.com/8760590/161435220-3c6ff08e-8b4d-471f-9326-6bc804969d91.png">
+    <img width="450" height="268" alt="image" src="https://user-images.githubusercontent.com/8760590/161435220-3c6ff08e-8b4d-471f-9326-6bc804969d91.png">
 </p>
