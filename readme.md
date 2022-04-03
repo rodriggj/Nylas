@@ -10,9 +10,7 @@
 
 ## Use Case 
 
-```js
-Suppose you have at minimum three accounts that are actively used to monitor 1. email and 2. calendar events but they are not integrated. No "pain of glass" to view all 3 accounts without manual logon, accessing, and reconciling deltas. 
-```
+> Suppose you have at minimum three accounts that are actively used to monitor 1. email and 2. calendar events but they are not integrated. No "pain of glass" to view all 3 accounts without manual logon, accessing, and reconciling deltas. 
 
 1. Personal (Gmail & Calendar) 
 2. School (Gmail & Calendar) 
