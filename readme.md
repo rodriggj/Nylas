@@ -1,6 +1,6 @@
-# Nylas Assignment
+# Nylas 
 
-## Process
+## Use of SDK
 1. First We Need to Authenticate our Account to a Nylas App
     - [ ] From Nylas splash page nav to the _Nylas Account_
     - [ ] Click _Auth Account_
