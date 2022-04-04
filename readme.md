@@ -47,7 +47,21 @@ Task:
 </p>
 
 Execution: 
-- [ ] SDK Installation and email 
+- [ ] SDK Installation and `send-email.js` -- see SDK branch
 - [ ] Postman execution of Label Creation & PUT request to move message to folder
 
 <hr>
+
+- [ ] Extra Credit 
+
+- [ ] Task 
+
+<p align="center">
+    <img width="300" height="150" alt="image" src="https://user-images.githubusercontent.com/8760590/161579515-5564292c-bdd6-4756-9f14-5a8d51501d25.png">
+</p>
+
+Execution 
+- [ ] See Webhook branch
+- [ ] See SDK branch
+- [ ] See Component branch. Here I installed and executed the `Scheduler` Web Component
+- [ ] See Trouble Ticket [#336](https://github.com/nylas/nylas-nodejs/issues/336) on `nylas/nylas-nodejs` Repository.
