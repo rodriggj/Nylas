@@ -48,7 +48,7 @@ Task:
 
 Execution: 
 - [ ] SDK Installation and `send-email.js` -- see SDK branch
-- [ ] Postman execution of Label Creation & PUT request to move message to folder
+- [ ] Postman execution of Label Creation & PUT request to move message to folder. Import `Collection & Env Variables` exports in folder labeled `Postman Collection`
 
 <hr>
 
