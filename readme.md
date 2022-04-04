@@ -22,3 +22,32 @@
     <img width="500" height="300" alt="image" src="https://user-images.githubusercontent.com/8760590/161436045-b3129a5b-ea2d-476b-b812-28aff1423bf3.png">
 </p>
 
+## Gabe Homework activity
+
+### Tasks
+- [ ] Create Google Environment
+
+Task: 
+<p align="center">
+    <img width="300" height="200" alt="image" src="https://user-images.githubusercontent.com/8760590/161571797-48aed6c9-abbc-456e-ba2b-4bdbf3efb323.png">
+</p>
+
+Execution: 
+<p align="center">
+    <img width="300" height="200" alt="image" src="https://user-images.githubusercontent.com/8760590/161572336-1ed834f8-f426-45f4-8be3-cd436b96acf2.png">
+</p>
+
+<hr>
+
+- [ ] Use provided Documentation to ...
+
+Task: 
+<p align="center">
+    <img width="300" height="200" alt="image" src="https://user-images.githubusercontent.com/8760590/161572673-e430ae98-3fbf-470c-86a9-5d917a81f364.png">
+</p>
+
+Execution: 
+- [ ] SDK Installation and email 
+- [ ] Postman execution of Label Creation & PUT request to move message to folder
+
+<hr>
